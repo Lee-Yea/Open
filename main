@@ -209,7 +209,10 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "datzay",
 	Callback = function()
-	    loadstring(game:HttpGet('https://raw.githubusercontent.com/I4MMO/Detazy/main/Main', true))()
+	    script_key="SbQenaiJoVLnvVMfMFRmxlIqBzsRQLbV";
+
+getgenv().script_key = script_key;
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/52caeddcf606eeb5c79620aa6037cb3a.lua"))()
   	end    
 })
 
