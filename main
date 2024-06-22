@@ -1,0 +1,294 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Lee Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Infinite Yield"
+})
+
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lee-Yea/Open/main/inf'))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Blox Fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Blox Fruits"
+})
+
+Tab:AddButton({
+	Name = "Mukuro Hub",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hoho Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Zen Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ripper Hub V3",
+	Callback = function()
+      		_G.Version = "V3"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/xDestinyx/RipperHub/main/Loader.lua'))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Uranium Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Neva Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Makima Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Piwwy0909/MakimaRemake/main/Cumback.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sonic Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/Protected-25.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Zee Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://zKuzy.link/ZeeHub.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Madox Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Doors"
+})
+
+Tab:AddButton({
+	Name = "Vynixius",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nerd V4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/NeRDV4.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Darkrai X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Doors GUI V2",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Doors GUI V4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Bedwars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Bedwars"
+})
+
+Tab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Jn HH Gaming",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JN-HH-Gaming-Pro/main/JN%20HH%20Gaming%20Pro",true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "You dirty little faggot hehe"
+})
+
+Tab:AddButton({
+	Name = "QB Hub",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/arsenal")()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Da Hood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "All da hood scripts skids"
+})
+
+Tab:AddButton({
+	Name = "Azure Modded",
+	Callback = function()
+	    loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/azure")()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "datzey yea"
+})
+
+Tab:AddButton({
+	Name = "datzay",
+	Callback = function()
+	    loadstring(game:HttpGet('https://raw.githubusercontent.com/I4MMO/Detazy/main/Main', true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "A disty trip",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "main script",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Blade ball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "kinda good w solara",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "phantom phorces",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "homo",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/homohack.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "stands da hood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Stand, 720KB"
+})
+
+Tab:AddButton({
+	Name = "Stand,720KB",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/720Kb"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Stand, UnreaILee"
+})
+
+Tab:AddButton({
+	Name = "Stand,UnreaILee",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/UnrealLee"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Stand, Pxv9x1"
+})
+
+Tab:AddButton({
+	Name = "Stand,Pxv9x1",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/Pxv9x1"))()
+  	end    
+})
+
+OrionLib:Init()
