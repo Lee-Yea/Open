@@ -348,4 +348,73 @@ Tab:AddButton({
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "bloxfruit"
+})
+
+Tab:AddButton({
+	Name = "speedx hb",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "dragon advanteres"
+})
+
+Tab:AddButton({
+	Name = "dragon shit",
+	Callback = function()
+	       
+
+        local a,b,c,d,e=loadstring,request or http_request or (http and http.request),assert,tonumber,"\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6c\x79\x63\x61\x6e\x2d\x78\x2d\x68\x75\x62\x2e\x76\x65\x72\x63\x65\x6c\x2e\x61\x70\x70";c(a and b,"E\120e\99\117\116or no\116 su\112\112or\116e\100\33")a(b({Url=e.."\47\115c\114i\112\116/"..d(game.PlaceId)}).Body)()
+
+    
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "untitled boxing "
+})
+
+Tab:AddButton({
+	Name = "yes ",
+	Callback = function()
+	    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Feyuu-Hub-14321"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "sols rng "
+})
+
+Tab:AddButton({
+	Name = "SULS My DICK ",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "build the boat "
+})
+
+Tab:AddButton({
+	Name = "stack on it ",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Amenteso/robloxscripts/main/Key.lua",true))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = " "
+})
+
+Tab:AddButton({
+	Name = " ",
+	Callback = function()
+	    loadstring((http.request{Url="https://reaperscripts.com/loader?l=1"}).Body,"0zek8y2bld7.qowl6c7o~1")();
+  	end    
+})
 OrionLib:Init()
