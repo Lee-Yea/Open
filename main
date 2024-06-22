@@ -307,4 +307,45 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "non solara script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "will be kinda messy but we got this!"
+})
+
+Tab:AddButton({
+	Name = "JailBreak autofarm",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "blocburg"
+})
+
+Tab:AddButton({
+	Name = "bloxburg",
+	Callback = function()
+	    ScriptJob = "HairDresser" 
+ScriptKey = "95a31a8935aca5f92b840d22892124cd"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SurgeDid/Blockburg/main/loader.lua"))();
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "strongest battleground"
+})
+
+Tab:AddButton({
+	Name = "Stronest battlegroundddd",
+	Callback = function()
+	    loadstring((http.request{Url="https://reaperscripts.com/loader?l=1"}).Body,"0zek8y2bld7.qowl6c7o~1")();
+  	end    
+})
+
 OrionLib:Init()
