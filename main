@@ -223,9 +223,9 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "main script",
+	Name = "he quit looking fora new one",
 	Callback = function()
-	    loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+	    a
   	end    
 })
 
@@ -408,13 +408,13 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
-	Name = " "
+	Name = "a disty trip "
 })
 
 Tab:AddButton({
-	Name = " ",
+	Name = "eurdite hub ",
 	Callback = function()
-	    loadstring((http.request{Url="https://reaperscripts.com/loader?l=1"}).Body,"0zek8y2bld7.qowl6c7o~1")();
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThacG/EruditeHub/main/A%20Dusty%20Trip/V3"))()
   	end    
 })
 OrionLib:Init()
