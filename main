@@ -222,13 +222,6 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddButton({
-	Name = "he quit looking fora new one",
-	Callback = function()
-	    a
-  	end    
-})
-
 local Tab = Window:MakeTab({
 	Name = "Blade ball",
 	Icon = "rbxassetid://4483345998",
