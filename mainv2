@@ -424,4 +424,35 @@ NonSolaraScriptsTab:AddButton({
 	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Bypass prem",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "bypassed stands"
+})
+
+Tab:AddButton({
+	Name = "unrealLee and hugepsi",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/UnrealLee")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "720KB and hugepsi",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/bypass%20prem%20720kb%20hugepsi")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "rose and niko",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/bypass%20rose")()
+  	end    
+})
+
 OrionLib:Init()
