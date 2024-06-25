@@ -434,6 +434,10 @@ local Section = Tab:AddSection({
 	Name = "bypassed stands"
 })
 
+local Section = Tab:AddSection({
+	Name = "bypassed UnreaILee"
+})
+
 Tab:AddButton({
 	Name = "unrealLee and hugepsi",
 	Callback = function()
@@ -442,10 +446,32 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "unrealLee and niko",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/UnreaILee%20niko")()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "bypassed 720KB"
+})
+
+Tab:AddButton({
 	Name = "720KB and hugepsi",
 	Callback = function()
       		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/bypass%20prem%20720kb%20hugepsi")()
   	end    
+})
+
+Tab:AddButton({
+	Name = "720KB and Niko",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/720KB%2C%20niko")()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "bypassed Rose"
 })
 
 Tab:AddButton({
