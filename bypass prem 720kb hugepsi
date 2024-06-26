@@ -50,4 +50,4 @@ getgenv().StandConfig = {
     ['SummonMusic'] = true, --[true | false]
     ['SummonMusicID'] = 'Default' -- Enter a Sound ID Put [Default] If You Would Like The Default Sound
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/BrandonCertified"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/stand/main/BrandonCertified"))()
