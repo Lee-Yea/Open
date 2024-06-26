@@ -464,6 +464,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "720KB and Pxv9x1",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/Pxv9x1%20bypass")()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "720KB and Niko",
 	Callback = function()
       		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/720KB%2C%20niko")()
