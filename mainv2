@@ -19,6 +19,17 @@ MainTab:AddButton({
 	end    
 })
 
+MainTab:AddSection({
+	Name = "Test your script out print."
+})
+
+MainTab:AddButton({
+	Name = "test print",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lee-Yea/Open/main/test'))()
+	end    
+})
+
 -- Blox Fruits Tab
 local BloxFruitsTab = Window:MakeTab({
 	Name = "Blox Fruits",
