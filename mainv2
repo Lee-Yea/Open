@@ -368,7 +368,18 @@ NonSolaraScriptsTab:AddButton({
 })
 
 NonSolaraScriptsTab:AddSection({
-	Name = "Strongest Battleground"
+	Name = "a disty trip"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "connect hub-no update",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/a%20disty%20tripo%20pc%20connect%20no%20update"))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "disty connect hub - no update"
 })
 
 NonSolaraScriptsTab:AddButton({
