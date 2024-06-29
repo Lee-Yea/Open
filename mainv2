@@ -30,6 +30,17 @@ MainTab:AddButton({
 	end    
 })
 
+MainTab:AddSection({
+	Name = "Unc Test"
+})
+
+MainTab:AddButton({
+	Name = "Unc",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lee-Yea/Open/main/Unc%20test'))()
+	end    
+})
+
 -- Blox Fruits Tab
 local BloxFruitsTab = Window:MakeTab({
 	Name = "Blox Fruits",
