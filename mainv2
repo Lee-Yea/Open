@@ -436,6 +436,17 @@ NonSolaraScriptsTab:AddButton({
 })
 
 NonSolaraScriptsTab:AddSection({
+	Name = "emergency hamburg"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "autofarm and all taht",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/emergency%20hamburg"))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
 	Name = "Build the Boat"
 })
 
