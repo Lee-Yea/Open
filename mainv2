@@ -311,17 +311,6 @@ StandsDaHoodTab:AddButton({
 	end    
 })
 
-StandsDaHoodTab:AddSection({
-	Name = "Stand, Rosa"
-})
-
-StandsDaHoodTab:AddButton({
-	Name = "Stand, Rosa",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/rosa"))()
-	end    
-})
-
 -- MM2 Tab
 local MM2Tab = Window:MakeTab({
 	Name = "MM2",
