@@ -556,4 +556,15 @@ Tab:AddButton({
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "Anime Defenders"
+})
+
+Tab:AddButton({
+	Name = "Buang Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/BUANGHUB.lua"))()
+  	end    
+})
+
 OrionLib:Init()
