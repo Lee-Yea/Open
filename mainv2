@@ -528,17 +528,6 @@ Tab:AddButton({
   	end    
 })
 
-local Section = Tab:AddSection({
-	Name = "bypassed Rose"
-})
-
-Tab:AddButton({
-	Name = "rose and niko",
-	Callback = function()
-      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/bypass%20rose")()
-  	end    
-})
-
 local Tab = Window:MakeTab({
 	Name = "Dar Scipts.",
 	Icon = "rbxassetid://4483345998",
@@ -547,6 +536,24 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 	Name = "you're gay for me!"
+})
+
+local Section = Tab:AddSection({
+	Name = "Da Hood"
+})
+
+Tab:AddButton({
+	Name = "the aimlock you sent to me",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/dar%20da%20hood%201")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "nyula",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/nyula")()
+  	end    
 })
 
 OrionLib:Init()
