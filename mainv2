@@ -545,4 +545,15 @@ Tab:AddButton({
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "Jailbreak autofarm OP"
+})
+
+Tab:AddButton({
+	Name = "Jailbreak AUTOFARM Ez",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular"))()
+  	end    
+})
+
 OrionLib:Init()
