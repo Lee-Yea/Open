@@ -518,13 +518,13 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Dar Scipts.",
+	Name = "New scripts.",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "you're gay for me!"
+	Name = "new scripts"
 })
 
 local Section = Tab:AddSection({
