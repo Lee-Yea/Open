@@ -1,0 +1,570 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Lee Hub!", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+-- Main Tab
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+MainTab:AddSection({
+	Name = "Infinite Yield"
+})
+
+MainTab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lee-Yea/Open/main/inf'))()
+	end    
+})
+
+MainTab:AddSection({
+	Name = "Test your script out print."
+})
+
+MainTab:AddButton({
+	Name = "test print",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lee-Yea/Open/main/test'))()
+	end    
+})
+
+MainTab:AddSection({
+	Name = "Unc Test"
+})
+
+MainTab:AddButton({
+	Name = "Unc",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lee-Yea/Open/main/Unc%20test'))()
+	end    
+})
+
+-- Blox Fruits Tab
+local BloxFruitsTab = Window:MakeTab({
+	Name = "Blox Fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+BloxFruitsTab:AddSection({
+	Name = "Blox Fruits"
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Mukuro Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"))()
+	end    
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Hoho Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+	end    
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Zen Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'))()
+	end    
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Ripper Hub V3",
+	Callback = function()
+		_G.Version = "V3"
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/xDestinyx/RipperHub/main/Loader.lua'))()
+	end    
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Uranium Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+	end    
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Neva Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+	end    
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Makima Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Piwwy0909/MakimaRemake/main/Cumback.lua'))()
+	end    
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Sonic Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/Protected-25.lua"))()
+	end    
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Zee Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://zKuzy.link/ZeeHub.lua"))()
+	end    
+})
+
+BloxFruitsTab:AddButton({
+	Name = "Madox Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))()
+	end    
+})
+
+-- Doors Tab
+local DoorsTab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+DoorsTab:AddSection({
+	Name = "Doors"
+})
+
+DoorsTab:AddButton({
+	Name = "Vynixius",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+	end    
+})
+
+DoorsTab:AddButton({
+	Name = "Nerd V4",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/NeRDV4.lua"))()
+	end    
+})
+
+DoorsTab:AddButton({
+	Name = "Darkrai X",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+	end    
+})
+
+DoorsTab:AddButton({
+	Name = "Doors GUI V2",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
+	end    
+})
+
+DoorsTab:AddButton({
+	Name = "Doors GUI V4",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+	end    
+})
+
+-- Bedwars Tab
+local BedwarsTab = Window:MakeTab({
+	Name = "Bedwars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+BedwarsTab:AddSection({
+	Name = "Bedwars"
+})
+
+BedwarsTab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end    
+})
+
+BedwarsTab:AddButton({
+	Name = "Jn HH Gaming",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JN-HH-Gaming-Pro/main/JN%20HH%20Gaming%20Pro",true))()
+	end    
+})
+
+-- Arsenal Tab
+local ArsenalTab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+ArsenalTab:AddSection({
+	Name = "Arsenal"
+})
+
+ArsenalTab:AddButton({
+	Name = "QB Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/arsenal"))()
+	end    
+})
+
+-- Da Hood Tab
+local DaHoodTab = Window:MakeTab({
+	Name = "Da Hood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+DaHoodTab:AddSection({
+	Name = "All da hood scripts"
+})
+
+DaHoodTab:AddButton({
+	Name = "Azure Modded",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/azure"))()
+	end    
+})
+
+DaHoodTab:AddSection({
+	Name = "datzey yea"
+})
+
+DaHoodTab:AddButton({
+	Name = "datzay",
+	Callback = function()
+		local script_key = "SbQenaiJoVLnvVMfMFRmxlIqBzsRQLbV"
+		getgenv().script_key = script_key
+		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/52caeddcf606eeb5c79620aa6037cb3a.lua"))()
+	end    
+})
+
+-- Blade Ball Tab
+local BladeBallTab = Window:MakeTab({
+	Name = "Blade Ball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+BladeBallTab:AddButton({
+	Name = "kinda good w solara",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+	end    
+})
+
+-- Phantom Forces Tab
+local PhantomForcesTab = Window:MakeTab({
+	Name = "Phantom Forces",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+PhantomForcesTab:AddButton({
+	Name = "homo",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/homohack.lua"))()
+	end    
+})
+
+-- Stands Da Hood Tab
+local StandsDaHoodTab = Window:MakeTab({
+	Name = "Stands Da Hood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+StandsDaHoodTab:AddSection({
+	Name = "Stand, 720KB"
+})
+
+StandsDaHoodTab:AddButton({
+	Name = "Stand, 720KB",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/720Kb"))()
+	end    
+})
+
+StandsDaHoodTab:AddSection({
+	Name = "Stand, UnreaILee"
+})
+
+StandsDaHoodTab:AddButton({
+	Name = "Stand, UnreaILee",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/UnrealLee"))()
+	end    
+})
+
+StandsDaHoodTab:AddSection({
+	Name = "Stand, Pxv9x1"
+})
+
+StandsDaHoodTab:AddButton({
+	Name = "Stand, Pxv9x1",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/Pxv9x1"))()
+	end    
+})
+
+-- MM2 Tab
+local MM2Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+MM2Tab:AddButton({
+	Name = "MM2",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanix-GUI-MM2/main/SnapSanix%20GUI%20mm2.lua'))()
+	end    
+})
+
+-- Non-Solara Scripts Tab
+local NonSolaraScriptsTab = Window:MakeTab({
+	Name = "Non Solara Script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "Will be kinda messy but we got this!"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "JailBreak Autofarm",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "Bloxburg"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "Bloxburg",
+	Callback = function()
+		local ScriptJob = "HairDresser"
+		local ScriptKey = "95a31a8935aca5f92b840d22892124cd"
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SurgeDid/Blockburg/main/loader.lua"))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "a disty trip"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "connect hub-no update",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/a%20disty%20tripo%20pc%20connect%20no%20update"))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "disty connect hub - no update"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "Strongest Battleground",
+	Callback = function()
+		loadstring((http.request{Url="https://reaperscripts.com/loader?l=1"}).Body, "0zek8y2bld7.qowl6c7o~1")()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "Bloxfruit"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "SpeedX Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "Dragon Adventures"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "Dragon Script",
+	Callback = function()
+		local a, b, c, d, e = loadstring, request or http_request or (http and http.request), assert, tonumber, "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6c\x79\x63\x61\x6e\x2d\x78\x2d\x68\x75\x62\x2e\x76\x65\x72\x63\x65\x6c\x2e\x61\x70\x70"
+		c(a and b, "Executor not supported!")
+		a(b({Url=e.."\47\115c\114i\112\116/"..d(game.PlaceId)}).Body)()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "Untitled Boxing"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "Yes",
+	Callback = function()
+		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Feyuu-Hub-14321"))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "Sols RNG"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "SULS My DICK",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "emergency hamburg"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "autofarm and all taht",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/Open/main/emergency%20hamburg"))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "Build the Boat"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "Stack On It",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Amenteso/robloxscripts/main/Key.lua", true))()
+	end    
+})
+
+NonSolaraScriptsTab:AddSection({
+	Name = "A Dusty Trip"
+})
+
+NonSolaraScriptsTab:AddButton({
+	Name = "Erudite Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThacG/EruditeHub/main/A%20Dusty%20Trip/V3"))()
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Bypass prem",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "bypassed stands"
+})
+
+local Section = Tab:AddSection({
+	Name = "bypassed UnreaILee"
+})
+
+Tab:AddButton({
+	Name = "unrealLee and hugepsi",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/UnrealLee")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "unrealLee and Pxv9x1",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/Pxv9x1%20unrel%20bypass")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "unrealLee and niko",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/UnreaILee%20niko")()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "bypassed 720KB"
+})
+
+Tab:AddButton({
+	Name = "720KB and hugepsi",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/bypass%20prem%20720kb%20hugepsi")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "720KB and Pxv9x1",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/Pxv9x1%20bypass")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "720KB and Niko",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/720KB%2C%20niko")()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "New scripts.",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "new scripts"
+})
+
+local Section = Tab:AddSection({
+	Name = "Da Hood"
+})
+
+Tab:AddButton({
+	Name = "the aimlock you sent to me",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/dar%20da%20hood%201")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "nyula",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/nyula")()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Jailbreak autofarm OP"
+})
+
+Tab:AddButton({
+	Name = "Jailbreak AUTOFARM Ez",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Anime Defenders"
+})
+
+Tab:AddButton({
+	Name = "Buang Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/BUANGHUB.lua"))()
+  	end    
+})
+
+OrionLib:Init()
