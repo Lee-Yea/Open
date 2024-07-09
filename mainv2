@@ -468,53 +468,11 @@ local Section = Tab:AddSection({
 })
 
 local Section = Tab:AddSection({
-	Name = "bypassed UnreaILee"
-})
-
-Tab:AddButton({
-	Name = "unrealLee and hugepsi",
-	Callback = function()
-      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/UnrealLee")()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "unrealLee and Pxv9x1",
-	Callback = function()
-      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/Pxv9x1%20unrel%20bypass")()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "unrealLee and niko",
-	Callback = function()
-      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/UnreaILee%20niko")()
-  	end    
+	Name = "bypassed  patched"
 })
 
 local Section = Tab:AddSection({
-	Name = "bypassed 720KB"
-})
-
-Tab:AddButton({
-	Name = "720KB and hugepsi",
-	Callback = function()
-      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/bypass%20prem%20720kb%20hugepsi")()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "720KB and Pxv9x1",
-	Callback = function()
-      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/Pxv9x1%20bypass")()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "720KB and Niko",
-	Callback = function()
-      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Lee-Yea/Open/main/720KB%2C%20niko")()
-  	end    
+	Name = "bypassed  (patched i think)"
 })
 
 local Tab = Window:MakeTab({
