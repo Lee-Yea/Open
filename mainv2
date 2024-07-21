@@ -235,6 +235,13 @@ DaHoodTab:AddSection({
 })
 
 DaHoodTab:AddButton({
+	Name = "animation changer",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/RubyBoo4life/Scripts/main/animations.vis'))()
+	end    
+})
+
+DaHoodTab:AddButton({
 	Name = "datzay",
 	Callback = function()
 		local script_key = "SbQenaiJoVLnvVMfMFRmxlIqBzsRQLbV"
